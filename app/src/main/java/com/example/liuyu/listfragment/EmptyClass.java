@@ -20,6 +20,6 @@ public class EmptyClass {
         return mSize;
     }
     public String toString() {
-        return "submit from ly branch";
+        return "Name: "+ mName + "Size: "+mSize;
     }
 }
