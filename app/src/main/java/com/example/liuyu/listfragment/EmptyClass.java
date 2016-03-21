@@ -19,7 +19,7 @@ public class EmptyClass {
     public int getSize(){
         return mSize;
     }
-    public String toString(){
-        return "ABC";
+    public String toString() {
+        return "submit from ly branch";
     }
 }
