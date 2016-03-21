@@ -19,4 +19,7 @@ public class EmptyClass {
     public int getSize(){
         return mSize;
     }
+    public String toString(){
+        return "ABC";
+    }
 }
