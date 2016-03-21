@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/buy_goods"/>
+    <TextView
+        android:id="@+id/goodstitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_toLeftOf="@+id/confirm"/>
+    <TextView
+        android:id="@+id/goodsprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goodstitle"
+        android:paddingTop="4dp"
+        android:layout_toLeftOf="@+id/confirm" />
+</RelativeLayout>
